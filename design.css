@@ -1,0 +1,84 @@
+
+/*Colors: 
+	Dark Pink/Purple: B2757F;
+	Light Pink: rgba(255, 192, 203, 0.32);
+	Pink: FFC0CB;
+*/
+ 
+ body {
+ 	margin:0px;
+ }
+
+.top {
+	background-color: rgba(255, 192, 203, 0.32);
+	padding: 10px;
+	height: 440px;
+}
+
+.bottom {
+ 	padding:40px;
+ 	text-align:center;
+ }
+
+.circle {
+	border-radius:50%;
+	border-width: 50px;
+}
+
+#profilepicture {
+	display: block;
+	width: 250px;
+	margin: 55px auto 15px;
+	padding: 7px;
+}
+
+#bgcircle {
+	position:relative;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 264px;
+}
+
+#title {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 36px;
+}
+
+#subtitle {
+	text-align:  center;
+	font-family: 'Hind', sans-serif;
+	font-size: 24px;
+}
+
+.header {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	color: B2757F;
+}
+
+.button {
+	background-color: rgb(178, 117, 127);
+	padding: 10px 50px;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #ffebef;
+	text-align:  center;
+	display:  inline;
+	margin: 10px;
+	transition-duration:0.3s;
+}
+
+.button:hover {
+	background-color:rgba(178, 117, 127, 0.63);
+}
+
+#button1 {
+
+}
+
+#button2 {
+	
+}
